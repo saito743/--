@@ -8,62 +8,38 @@
 	display: block;
 	clear: both;
 }
-.main-box{
-	margin: 50px 0 auto;
+main{
+	margin: 50px auto;
+	width:960px;
 }
-.list-gray{
+.list{
+	margin-bottom: 50px;
+}
+
+.list-item{
 	padding: 20px;
-	text-align: left;
-	background-color: #c0c0c0;
-	width: 960px;
-	margin: 0 auto;
+	list-style: none;
 }
-.list-white{
-	padding: 20px;
-	text-align: left;
-	background-color: #fff;
-	width: 960px;
-	margin: 0 auto;
+.list-item:nth-child(odd){
+	background-color: #eee;
 }
-.boxes{
-	margin: 0 auto;
-	width: 960px;
-	padding:50px 0;
-}
-.orange{
-	background-color: orange;
-}
+
 .box{
 	width: 30%;
 	height: 200px;
-	background-color: gold;
-	display: inline-block;
+	background-color: #ffd700;
 	margin-bottom: 40px;
 	float: left;
-}
-.center{
-	margin-left: 5%;
 	margin-right: 5%;
 }
-.box-orange{
-	width: 30%;
-	height: 200px;
-	background-color: orange;
-	display: inline-block;
-	margin-bottom: 40px;
-	float: left;
+.box:first-child,
+.box:nth-child(5),
+.box:last-child {
+  background-color: #ff8c00;
 }
-.box-s{
-	width: 30%;
-	height: 200px;
-	background-color: gold;
-	display: inline-block;
-	float: left;
+.box:nth-child(3n){
+	margin-right: 0;
 }
-.orange{
-	width: 30%;
-	height: 200px;
-	background-color: orange;
-	display: inline-block;
-	float: left;
-}
+.box:nth-last-child(-n
+	3){
+	margin-bottom: 0;
